@@ -1,10 +1,10 @@
-# Synthetic Computability Theory in Coq
+# A Constructive Solution to Post's Problem
 
-## Meta
+This repository contains the Rocq code accompanying the paper 'A Constructive Solution to Post's Problem' by Haoyi Zeng, Yannick Forster, Dominik Kirst and Takako Nemoto. All relevant files hyperlinked in the PDF can be found in the folder `PostsProblem`.
 
-## Description
+## Additional Folders
 
-This library contains results on synthetic computability theory.
+This library contains further results on synthetic computability theory:
 
 - Equivalence proofs for various axioms of synthetic computability in `Axioms/Equivalence.v`
 - Rice's theorem in `Basic/Rice.v`
