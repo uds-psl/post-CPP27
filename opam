@@ -1,0 +1,17 @@
+opam-version: "2.0"
+version: "dev"
+maintainer: "XXXX-5.XXXX-6@inria.fr"
+
+license: "MPL-2.0"
+build: [
+  [make "-C" "theories" "-j%{jobs}%"]
+]
+install: [
+  [make "-C" "theories" "install"]
+]
+depends: [
+  "rocq-prover" { >= "9.0~" & != "9.0.dev" & < "10" }
+  "rocq-equations"
+  "coq-stdpp"
+]
+
